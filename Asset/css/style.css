@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mybg {
+    background-color: rgba(00, 00, 50, 1);
+}
+
+.right {
+    justify-content: space-between;
+}
+
+.cent {
+    justify-items: center;
+}
+
+.mylink li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.mylink a {
+    text-decoration: none;
+    color: rgba(00, 00, 50, 1);
+    text-transform: uppercase;
+}
+
+.mylink a:hover {
+    color: darkblue;
+}
+
+.mstari {
+    flex-direction: row;
+    display: flex;
+    justify-items: space-between;
+}
+
+@media screen and (max-width: 760px) {
+    .mylink {
+        display: none;
+    }
+    .display-4 {
+        font-size: 25px;
+        margin: 10px;
+    }
+}
+
+.carddm {
+    margin-top: 10px;
+}
